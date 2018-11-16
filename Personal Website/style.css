@@ -1,0 +1,25 @@
+
+
+body {
+  margin: 0;
+  font-family: sans-serif, 'Montserrat';
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+
+#main_section{
+
+  background: url(images/background.jpg) no-repeat center center fixed;
+  background-position: 0px -10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+height: 100vh;
+
+
+
+
+}
