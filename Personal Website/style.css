@@ -70,24 +70,41 @@ header a:hover {
 #underheader {
   min-height: 600px;
   background: url('./images/keyboardimage.jpg') no-repeat -400px -400px;
-  border-bottom: #488DFF 3px solid
+  border-bottom: #488DFF 3px solid;
 }
 
 /* More Links to Other Pages CSS */
-
-#linkstopages{
+#linkstopages {
   margin-top: 30px;
 }
 
-#linkstopages .pages{
-  float:left;
+#linkstopages .pages {
+  float: left;
   text-align: center;
   width: 30%;
-  padding: 10px;
+  padding: 20px;
 }
 
-
-
-#linkstopages  i {
+#linkstopages i {
   color: #488DFF
+}/* Footer Styling */
+footer {
+  color: #ffffff;
+  text-align: center;
+  border-top: #488DFF 3px solid;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #60656F;
+}
+
+footer i {
+  padding-right: 40px;
+}
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer a :hover {
+  color: #000000;
+  font-weight: bold;
 }
