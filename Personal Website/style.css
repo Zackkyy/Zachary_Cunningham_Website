@@ -66,14 +66,14 @@ header a:hover {
   font-weight: bold;
 }
 
-/*Image Under Header CSS*/
+/* Image Under Header CSS all pages */
 #underheader {
   min-height: 600px;
   background: url('./images/keyboardimage.jpg') no-repeat -400px -400px;
   border-bottom: #488DFF 3px solid;
 }
 
-/* More Links to Other Pages CSS */
+/* More Links to Other Pages CSS on main page */
 #linkstopages {
   margin-top: 30px;
 }
@@ -87,7 +87,9 @@ header a:hover {
 
 #linkstopages i {
   color: #488DFF
-}/* Footer Styling */
+}
+
+/* Footer Styling all Pages*/
 footer {
   color: #ffffff;
   text-align: center;
@@ -107,4 +109,10 @@ footer a{
 footer a :hover {
   color: #000000;
   font-weight: bold;
+}
+
+#Contact{
+
+text-align: center;
+
 }
