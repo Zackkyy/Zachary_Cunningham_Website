@@ -1,0 +1,118 @@
+/* Global CSS For All Pages */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4
+}
+
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS For the Header Section */
+header {
+  background: #60656F;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #488DFF 3px solid
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #top_bar {
+  float: left;
+}
+
+header #top_bar h1 {
+  margin: 0
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a {
+  color: #488DFF;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Image Under Header CSS all pages */
+#underheader {
+  min-height: 600px;
+  background: url('./images/keyboardimage.jpg') no-repeat -400px -400px;
+  border-bottom: #488DFF 3px solid;
+}
+
+/* More Links to Other Pages CSS on main page */
+#linkstopages {
+  margin-top: 30px;
+}
+
+#linkstopages .pages {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+
+#linkstopages i {
+  color: #488DFF
+}
+
+/* Footer Styling all Pages*/
+footer {
+  color: #ffffff;
+  text-align: center;
+  border-top: #488DFF 3px solid;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #60656F;
+}
+
+footer i {
+  padding-right: 40px;
+}
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer a :hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+#Contact{
+
+text-align: center;
+
+}
